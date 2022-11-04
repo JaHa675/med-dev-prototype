@@ -8,10 +8,18 @@ header {
     margin-top: 1vh;
 }
 
+h2 {
+    font-weight: bolder;
+}
+
 section {
     margin-top: 10vh;
     align-items: center;
     justify-content: space-around;
+}
+
+article, .article-link{
+    text-align: center;
 }
 
 main {
