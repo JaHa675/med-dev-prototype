@@ -1,0 +1,53 @@
+
+
+main {
+    margin: 0 8vh;
+}
+
+header {
+    margin-top: 1vh;
+}
+
+section {
+    margin-top: 10vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main {
+
+}
+
+.img-left, .img-right {
+    justify-content: space-between;
+}
+
+section > img {
+    border-radius: 5px;
+}
+
+section > article, h2 {
+    text-align: center;
+}
+
+.nav-link, a {
+    font-size: large;
+    transition: all .1s;
+}
+
+a:hover, .nav-link:hover {
+    box-shadow: inset 0 0 0 2px teal;
+}
+
+.logo > img:hover {
+    /* transform: scale(1.1);
+    border-radius: 0px; */
+}
+
+footer {
+    width: 100vw;
+}
+
+img {
+    padding: 4px 4px;
+}
